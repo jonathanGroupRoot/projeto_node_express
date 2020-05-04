@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 mongoose.connect('mongodb+srv://jonathan_adm:78951root@clusterapi-irvcy.mongodb.net/test?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex :  true
 }); 
 
 mongoose.connection.on('error', (err) => {
