@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "Jonathan Vinicius",
   "license": "ISC",
@@ -14,5 +14,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.11",
     "node-gyp": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
